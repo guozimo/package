@@ -1,0 +1,24 @@
+{
+  "name": "share3344",
+  "version": "2021.1023.1275",
+  "description": "cnpm i npm-run-all -g dev:\"npm-run-all --parallel dev:**\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "node version/version.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guozimo/package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guozimo/package/issues"
+  },
+  "homepage": "https://github.com/guozimo/package#readme",
+  "dependencies": {
+    "shelljs": "^0.8.4",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}
