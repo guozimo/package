@@ -1,14 +1,19 @@
 {
   "name": "share3344",
-  "version": "2021.0112.1804",
+  "version": "2021.0112.1805",
   "description": "share package.josn",
   "keywords": [
     "pachage"
   ],
   "main": "index.js",
+  "files": [
+    "version",
+    "a.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "version": "node version/version.js"
+    "version": "node version/version.js",
+    "dev": "node a.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +26,7 @@
   },
   "homepage": "https://github.com/guozimo/package#readme",
   "dependencies": {
+    "files": "^2.1.0",
     "shelljs": "^0.8.4",
     "validate-npm-package-name": "^3.0.0"
   }
