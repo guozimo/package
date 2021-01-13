@@ -1,2 +1,4 @@
 let share = require("./share");
-console.log(share)
+
+console.log(process.platform)
+console.log(1212)

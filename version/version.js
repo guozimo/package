@@ -1,11 +1,3 @@
-/*
- * @Author: weidong19
- * @Date: 2020-11-12 17:39:21
- * @LastEditTime: 2020-11-13 15:08:06
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /wb-ad-asset/src/version/version.js
- */
 "use strict";
 const ora = require("ora");
 const inquirer = require("inquirer");

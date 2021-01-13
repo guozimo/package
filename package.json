@@ -1,6 +1,6 @@
 {
   "name": "share3344",
-  "version": "2021.0112.1805",
+  "version": "2021.0112.1807",
   "description": "share package.josn",
   "keywords": [
     "pachage"
@@ -9,6 +9,13 @@
   "files": [
     "version",
     "a.js"
+  ],
+  "config": {
+    "port": "8080"
+  },
+  "private": false,
+  "os": [
+    "darwin"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,7 +34,14 @@
   "homepage": "https://github.com/guozimo/package#readme",
   "dependencies": {
     "files": "^2.1.0",
+    "husky": "^4.3.7",
     "shelljs": "^0.8.4",
     "validate-npm-package-name": "^3.0.0"
+  },
+  "husky": {
+    "hooks": {
+        "pre-commit": "npm run dev",
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
