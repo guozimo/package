@@ -1,11 +1,14 @@
 {
   "name": "share3344",
-  "version": "2021.0112.1807",
+  "version": "2021.0114.1142",
   "description": "share package.josn",
   "keywords": [
     "pachage"
   ],
   "main": "index.js",
+  "bin": {
+    "share": "bin/index.js"
+  },
   "files": [
     "version",
     "a.js"
@@ -37,11 +40,5 @@
     "husky": "^4.3.7",
     "shelljs": "^0.8.4",
     "validate-npm-package-name": "^3.0.0"
-  },
-  "husky": {
-    "hooks": {
-        "pre-commit": "npm run dev",
-        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   }
 }
